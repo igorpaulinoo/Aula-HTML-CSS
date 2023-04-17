@@ -1,0 +1,27 @@
+p {
+    width: 500px;
+    height: 150px;
+}
+
+/* Seletor individual 
+"#" = para chamar uma div
+"." = para chamr uma class
+*/
+
+#p1 {
+    color: rgb(19, 133, 19);
+}
+
+#p2 {
+    color: rgb(185, 22, 22);
+}
+
+/* Classe generica */
+
+.borda {
+    border: 5px solid rgba(0, 0, 0, 0.616);
+}
+
+.sombra {
+    box-shadow: 5px 5px 10px rgb(8, 218, 25);
+}

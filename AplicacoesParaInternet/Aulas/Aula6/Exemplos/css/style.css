@@ -1,0 +1,43 @@
+/* Pseudo classe 
+block = posibilita colocar largura e altura
+inline = não deixar colocar altura e largura
+box-sizing: border-box = trava o tamanho da caixa
+*/
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.438), white);
+    background-attachment: fixed;
+   
+}
+
+a, a:link {
+    background-color: lightgray;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+    transition: width 1s;
+}
+
+/* quando visitar o link ele muda de cor */
+a:visited {
+    color: green;
+}
+
+/* Faz uma animação quando passa o mouse em cima */
+a:hover {
+    background-color: black;
+    color: white;
+    width: 200px;
+}
+
+
+
+/* Utizado para colocar tempo nas animações*/
+@keyframes identifier {
+    
+}

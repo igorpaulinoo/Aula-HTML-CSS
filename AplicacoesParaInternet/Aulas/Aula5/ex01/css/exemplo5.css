@@ -1,0 +1,20 @@
+body {
+    background-color: rgba(0, 0, 0, 0.74);
+    color: white;
+}
+
+article {
+    background-color: rgba(128, 128, 128, 0.164);
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+article h2 {
+    color: pink;
+    text-align: center;
+}
+
+article, h2 {
+    font-size: 12pt;
+}

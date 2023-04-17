@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Robervando Paixão</title>
+</head>
+<body>
+    <header> <!-- cabeçalho -->
+        <h1>Dr. Robervando Paixão</h1>
+    </header>
+    <nav> <!-- area de navegação  -->
+        <a href="index.html">Home</a>
+        <a href="curriculo.html">Currículo</a>
+        <a href="especialidade.html">Especialidade</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <main> <!-- area central -->
+        <!-- O GET é usado geralmente para “pegar” informações e o método POST é usado para “postar” informações. Portanto, o GET envia os parâmetros na própria URL, visto que esses parâmetros não são “segredo” e as pessoas podem acessá-los tranquilamente. Já o POST é usado quando os parâmetros precisam ser enviados no corpo da requisição, isso significa que não será passado nenhum parâmetro pela URL, isso permite um maior controle quando estamos tratando dados sensíveis (ex. dados dos cartões de crédito, senhas, etc).-->
+        <form method="get" action=""> <!-- formulario -->
+            <fieldset> <!-- cria um "contorno" -->
+                <legend>Agendar Consulta</legend> <!-- legenda -->
+
+                <label for="nome">Nome*:</label>
+                <input type="text" id="nome" name="txtnome" required><br>
+
+                <label for="date">Data*:</label>
+                <input type="date" id="data" name="txtdata" required><br>
+
+                <label>Tipo do atendimento</label><br>
+                <input type="radio" value="1" name="opc">Particular <br>
+                <input type="radio" value="2" name="opc">Plano <br>
+
+                <label for="msg">Mensagem</label> <br>
+                <textarea name="msg" id="" cols="40" rows="5"></textarea> <!-- "textarea" cria uma area de texto--> <br>
+                
+                <button>Enviar</button>
+            </fieldset> 
+        </form>
+    </main>
+    <footer>
+        <em>Desenvolvido por Igor</em> <!-- italico -->
+    </footer>
+</body>
+</html>

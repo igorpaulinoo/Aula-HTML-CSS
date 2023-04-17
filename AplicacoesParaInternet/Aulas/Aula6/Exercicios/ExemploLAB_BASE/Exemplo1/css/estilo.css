@@ -1,0 +1,61 @@
+body { 
+    font-family: sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+.box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px dashed black;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+.image {
+    text-align: center;
+    margin: 0px;
+    width: 660px;
+}
+
+figcaption {
+    font-size: 8pt;
+}
+
+p, ul {
+    text-align: justify;
+}
+
+.texto {
+    width: 600px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    border: 1px solid black;
+}
+
+.image .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.texto h3 a {
+    text-decoration: none;
+    color: green;
+}
+
+.texto p a {
+    text-decoration: none;
+    color: red;
+}
+
+footer {
+    background-color: #ccc;
+    border-radius: 5px;
+    font-size: 8pt;
+    padding: 5px;
+    text-align: center;
+}

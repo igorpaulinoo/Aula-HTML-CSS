@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Formulário</title>
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Dados do paciente</legend>
+                <label for="inome">Nome do paciente:</label>
+                <input type="text" name="nome" id="inome"><br>
+            
+                <label for="iregis">Registro hospitalar</label>
+                <input type="text" name="regis" id="iregis"><br>
+                
+                <label for="">Data de inclusão:</label>
+                <input type="date"><br>
+
+                <label for="">Data de nascimento:</label>
+                <input type="date"><br>
+
+                <label for="">E-mail:</label>
+                <input type="email"><br>
+
+                <label for="">Gênero:</label><br>
+                <label for="g1">
+                    <input type="radio" name="genero" value="1" id="g1">Feminino<br>
+                </label>
+                <label for="g2">
+                    <input type="radio" name="genero" value="2" id="g2">Masculino<br>
+                </label>
+                
+                <label for="">Raça declarada:</label>
+                <select name="raca">
+                    <option value=""></option>
+                    <option value="Branca">Branca</option>
+                    <option value="Negra">Negra</option>
+                    <option value="Parda">Parda</option>
+                    <option value="Amarela">Amarela</option>
+                    <option value="Indigena">Indigena</option>
+                    <option value="Desconhecida">Desconhecida</option>
+                </select><br>
+
+                <label for="">Como ficou sabendo do estudo:</label><br>
+                <input type="checkbox" name="estudo" value="convidado">Convidado<br>
+                <input type="checkbox" name="estudo" value="internet">Internet<br>
+                <input type="checkbox" name="estudo" value="amigos">Amigos<br>
+                <input type="checkbox" name="estudo" value="familiares">Familiares<br>
+                <input type="checkbox" name="estudo" value="outros">Outros<br>
+
+                <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>

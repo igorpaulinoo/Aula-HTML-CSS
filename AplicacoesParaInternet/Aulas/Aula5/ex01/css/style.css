@@ -1,0 +1,17 @@
+/*Seletor TIPO 
+config a propria tag
+*/
+
+p {
+    color: rgb(20, 105, 2);
+    font-size: 20pt;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.473);
+}
+
+p {
+    color: red;
+    background-color: rgba(0, 0, 255, 0.596);
+}
