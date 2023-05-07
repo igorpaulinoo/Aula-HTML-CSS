@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    margin: 12px 0;
+}
+
+.card-container {
+    cursor: pointer;
+    height: 150px;
+    perspective: 600;
+    position: relative;
+    width: 150px;
+    display: inline-flex;
+}
+
+.card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: box-shadow 0.3s ease-in-out, all 1s ease-in-out;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 50px rgba(25, 0, 255, 0.904);
+    transform: rotateY(180deg);
+}
+
+.card .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.card .back {
+    background: #eaeaed;
+    color: #0087cc;
+    line-height: 150px;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
