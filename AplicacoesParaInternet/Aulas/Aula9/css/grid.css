@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+}
+
+#a{background-color: red;}
+#b{background-color: blue;}
+#c{background-color: green;}
+
+#linha {
+    display: grid;
+    height: 200px;
+    grid-template-columns: 2fr 3fr 1fr; /* dividindo os conteudos, "fr" = tamanho que vai pegar da tela */
+}
+

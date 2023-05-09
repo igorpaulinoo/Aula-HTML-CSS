@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background: linear-gradient(#230d38, #351864);
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-around;
+    font-family: "Lily Script One";
+    font-size: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav div {
+    width: 100px;
+}
+
+nav .logo {
+    display: none;
+}
+
+figure {
+    width: 70%;
+    background-color: #ccc;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(116, 44, 145);
+}
+
+figure img {
+    width: 100%;
+}
+
+@media (max-width: 780px) {
+    #wrapper {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    nav {
+        background: linear-gradient(#230d38, #351864);
+        width: 40%;
+        text-align: center;
+        flex-wrap: wrap;
+    }    
+
+    nav div {
+        width: 100%;
+    }
+
+    nav .texto {
+        display: none;
+    }
+
+    nav .logo {
+        display: block;
+        color: #ffffff;
+        font-size: 1.3em;
+    }   
+
+    figure {
+        width: 100%;
+        padding: 2px;
+        border: none;
+    }
+
+    figcaption {
+        display: none;
+    }
+}

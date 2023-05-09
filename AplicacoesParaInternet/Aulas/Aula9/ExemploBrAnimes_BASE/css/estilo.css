@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    background-color: #000;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+header section, header nav {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#logo {
+    width: 250px;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#esquerda {
+    flex-grow: 1;
+}
+
+header section {
+    letter-spacing: 5px; /* espaçamento das letras*/
+    font-size: 14pt;
+    font-style: italic;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between; /* espaço entre os elementos */
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+main {
+    margin: auto;
+    width: 960px;
+    min-height: 400px; /* altura minima */
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.texto_banner {
+    font-size: 30pt;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#assistir {
+    text-decoration: none;
+    display: block;
+    font-size: 18pt;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(23, 23, 216);
+    color: #fff;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.destaque {
+    background-color: #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(8, 8, 8);
+}
+
+.destaque div {
+    display: flex;
+}
+
+.destaque figure img {
+    width: 150px;
+}
+
+#assinar {
+    text-decoration: none;
+    display: block;
+    font-size: 20pt;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(253, 6, 6);
+    color: #fff;
+    border-radius: 20px;
+    margin: auto;
+}
+
+/* pagina galeria */
+#galeria {
+    display: flex;
+    flex-wrap: wrap; /*o que não couber na tela quebra para baixo*/
+    justify-content: center;
+}
+
+#galeria img {
+    width: 250px;
+    margin: 10px;
+}
+
+/* pagina programação */
+.programacao {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.programacao article img {
+    width: 150px;
+}
+
+.programacao article {
+    width: 50%;
+    box-sizing: border-box; /* não espandir a caixa */
+    display: flex;
+    padding: 20px;
+}
+
+.programacao h3 {
+    width: 100%;
+}
+
+.programacao article div {
+    padding: 30px;
+}
+
+/* pagina planos */
+#destaque_plus {
+    display: flex;
+    justify-content: space-between;
+}
+
+#destaque_plus p {
+    text-align: center;
+}
+
+.planos {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 20px auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.planos ul {
+    text-align: left;
+}
+
+.planos p {
+    font-size: 14pt;
+}
+
+.planos p span {
+    font-size: 20pt;
+    color: #f00;
+}
+
+/* pagina contato */
+#contato {
+    display: flex;
+    justify-content: space-around;
+}
+
+input, textarea {
+    display: block;
+    background-color: #ccc;
+    border-radius: 20px;
+    border: none;
+    margin: 20px;
+    width: 300px;
+    padding: 10px;
+}
+
+#contato button {
+    font-size: 18pt;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(14, 14, 177);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}

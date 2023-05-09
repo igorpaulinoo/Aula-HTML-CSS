@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+}
+
+#a {background-color: red;}
+#b {background-color: blue;}
+#c {background-color: green;}
+
+#linha {
+    display: flex; /* deixa alinhado um do lado do outro */
+    align-items: stretch; /* estica o elemento */
+    justify-content: center;
+    height: 90%;
+}
+
+/* dividindo os elementos */
+#a, #c {
+    flex-grow: 1;
+}
+
+#b {
+    flex-grow: 2;
+}

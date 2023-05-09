@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,300&display=swap');
+
+@font-face {
+    font-family: StarJedi;
+    src: url(../assets/fonts/Starjedi.ttf)
+}
+
+/*
+Itens obrigatorios do projeto:
+ - Colocar o projeto no github Pages
+ - Parallax obrigatorio no projeto
+ - scroll rolagem
+ - Menu Sanduiche, ideas no site Bootstrap
+ - Reponsividade obrigatoria
+ - Usar combinações de cores 
+ - Uma unica página
+*/
+
+html {
+    scroll-behavior: smooth; /* há rolagem fica mais suave, obrigatorio rolagem no projeto*/
+}
+
