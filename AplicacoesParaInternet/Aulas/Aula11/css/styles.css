@@ -230,9 +230,10 @@ p {
 }
 
 #contato form input {
+    padding: 15px;
     width: 70%;
-    height: 60px;
-    padding: 10px;
+    font-size: 16pt;
+    color: #555;
 }
 
 #contato form .btn {
